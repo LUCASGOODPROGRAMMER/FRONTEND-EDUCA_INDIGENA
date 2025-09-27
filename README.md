@@ -23,6 +23,7 @@ Acreditamos no poder da educação para fortalecer identidades, valorizar sabere
 - **JavaScript (ES6+)**  
 - **HTML5**  
 - **CSS3**  
+- **React Router**
 - *(adicione libs/frameworks extras: Tailwind, React Router, etc.)*  
 
 ---
