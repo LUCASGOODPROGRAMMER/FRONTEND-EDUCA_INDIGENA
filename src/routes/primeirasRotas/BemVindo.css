@@ -1,0 +1,57 @@
+#banner-welcome {
+  min-height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #9bbaaa;
+}
+
+#banner-welcome p {
+  background-color: #0000006a;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-size: 3em;
+  border-radius: 5px;
+  color: white;
+}
+
+#welcome-message {
+  min-height: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#welcome-message p {
+  background-color: #ffffff;
+  padding: 1rem 2rem;
+  margin: 0 5rem;
+  font-size: 2em;
+  text-align: left;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+#infos-welcome {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 20rem;
+  text-transform: uppercase;
+  background-color: #9bbaaa;
+}
+
+#end-message {
+  min-height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#navlink-tohome {
+  background-color: #208ef5;
+  padding: 1rem;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: white;
+}

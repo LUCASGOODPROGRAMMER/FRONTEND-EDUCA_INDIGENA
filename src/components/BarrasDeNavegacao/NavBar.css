@@ -1,0 +1,32 @@
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem 0.9rem;
+  align-items: center;
+  background-image: linear-gradient(270deg,#9bbaaa,#CBDFBD);
+  position: sticky;
+  top:0
+}
+
+#logo-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo-navbar h2 {
+  text-transform: uppercase;
+  color: #eefff6;
+}
+
+#btn-login {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: transform .2s ease-in-out;
+  cursor: pointer;
+}
+
+#btn-login:active {
+  transform: translateY(5px)
+}

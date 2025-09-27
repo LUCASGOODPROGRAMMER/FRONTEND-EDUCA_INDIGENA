@@ -1,0 +1,23 @@
+.icone-de-imagem {
+  border-radius: 50%;
+  height: 45px;
+}
+
+.btn {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #CBDFBD;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.container-de-navegacao {
+  background-color: #252525;
+  border-radius: 5px;
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}

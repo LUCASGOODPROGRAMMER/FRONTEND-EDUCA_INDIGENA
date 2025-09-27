@@ -1,0 +1,26 @@
+.container-de-navegacao a {
+  color: #cbdfbd;
+  text-transform: uppercase;
+  position: relative;
+  padding: 0.2rem 0;
+}
+
+.container-de-navegacao a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #eeeeee;
+  transition: width 0.4s ease-in-out;
+}
+
+.container-de-navegacao a.active::after {
+  width: 100%;
+  background-color: #cbdfbd;
+}
+
+/* .container-de-navegacao a:hover::after {
+  width: 100%;
+} */
