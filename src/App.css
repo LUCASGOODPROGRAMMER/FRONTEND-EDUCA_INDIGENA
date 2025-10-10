@@ -1,0 +1,8 @@
+/* container principal da aplicação */
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+

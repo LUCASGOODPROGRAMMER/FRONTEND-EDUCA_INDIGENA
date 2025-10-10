@@ -1,0 +1,48 @@
+.container-form-login {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: .8rem 1rem;
+}
+
+.container-form-login img {
+    width: clamp(200px, 50vw, 600px);
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+}
+
+.input-welcome {
+  background-color: #9bbaaa;
+  padding: 0 1rem;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+
+.btn-submit {
+  height: 4rem;
+  align-self: center;
+  padding: 0 2rem;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 1.6rem;
+  background-color: #9bbaaa;
+}
+
+.span-option {
+  color: #9BBAAA;
+}
+
+@media (max-width: 340px) {
+  .input-welcome {
+    font-size: 1.3rem
+  }
+}

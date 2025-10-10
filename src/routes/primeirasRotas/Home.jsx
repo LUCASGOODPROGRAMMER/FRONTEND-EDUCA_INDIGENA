@@ -1,18 +1,18 @@
 import { Outlet } from "react-router-dom";
-import CaixaDeBuscaHome from "../../components/BarrasDeNavegacao/CaixaDeBuscaHome";
-import BarraDeNavegacaoHome from "../../components/BarrasDeNavegacao/BarraDeNavegacaoHome";
+import CaixaDeBuscaHome from "../../components/layout/CaixaDeBuscaHome";
+import BarraDeNavegacaoHome from "../../components/layout/BarraDeNavegacaoHome";
 
-import './Home.css'
+import "./Home.css"
 
 const Home = () => {
-return (
-    <>
+  return (
+    <div className="container-principal">
       <section id="container-de-navegacao">
         <CaixaDeBuscaHome />
         <BarraDeNavegacaoHome />
       </section>
       <Outlet />
-    </>
+    </div>
   );
 };
 

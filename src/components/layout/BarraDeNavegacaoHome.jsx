@@ -1,11 +1,10 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
 
 import "./BarraDeNavegacaoHome.css";
 
 const BarraDeNavegacaoHome = () => {
   return (
-    <nav className="container-de-navegacao">
+    <nav className="container-de-navegacao sub-nav">
       <NavLink
         to="galeria-de-animais"
         className={({ isActive }) => (isActive ? "active" : "")}

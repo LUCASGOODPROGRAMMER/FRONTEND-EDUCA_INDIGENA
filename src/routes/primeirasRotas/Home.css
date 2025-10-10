@@ -1,5 +1,11 @@
 #container-de-navegacao {
     display: flex;
     justify-content: space-between;
-    padding: 1rem 2rem;
+    gap: 1rem;
+}
+
+@media (max-width: 630px) {
+    #container-de-navegacao {
+        flex-direction: column;
+    }
 }

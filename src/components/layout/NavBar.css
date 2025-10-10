@@ -5,7 +5,8 @@
   align-items: center;
   background-image: linear-gradient(270deg,#9bbaaa,#CBDFBD);
   position: sticky;
-  top:0
+  top:0;
+  gap: 1rem;
 }
 
 #logo-navbar {
@@ -29,4 +30,13 @@
 
 #btn-login:active {
   transform: translateY(5px)
+}
+
+@media (max-width: 370px) {
+  #logo-navbar h2{
+    font-size: 1.2rem;
+  }
+  #btn-login p{
+    display: none;
+  }
 }
