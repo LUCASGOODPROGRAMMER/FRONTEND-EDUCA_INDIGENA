@@ -1,0 +1,39 @@
+.container-de-galerias {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+/* cards de galeria postado */
+.card-gallery-animal {
+  background-color: #252525de;
+  width: clamp(250px, 50vw, 400px);
+  height: 300px;
+  color: #cbdfbd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* perfil de usuário da postagem */
+.user-profile-gallery {
+  display: flex;
+  align-items: center;
+  padding: 0.7rem;
+  gap: 0.6rem;
+  text-transform: capitalize;
+}
+
+/* icon perfil de usuario */
+.user-profile-gallery img {
+  width: 40px;
+  border-radius: 5px;
+}
+
+/* imagem principal da galeria */
+.content-gallery-img img {
+  width: 100%; /* Largura do container */
+  height: auto; /* Mantém a proporção */
+  display: block; /* Remove espaçamento extra se for inline */
+}
